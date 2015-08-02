@@ -3,28 +3,29 @@ body {
   -webkit-font-smoothing: antialiased;
 	padding: 0;
 	margin: 0;
-	font-family: helvetica;
+	font-family: "Open Sans", sans-serif;
+}
+h1, h2 {
+	font-size: 80px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
 }
 .hero {
   background-color: rgb(35,35,46);
-}
-.intro{
-  text-align: center;
+  padding: 80px;
   color: white;
+}
+.intro {
+  text-align: center;
   font-weight: bold;
   height: 840px
 }
-img {
-  height: 132px;
-  width: 132px;
-  padding-top: 80px;
-  padding-bottom: 190px;
+.logo {
+
 }
 .title {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 .subtitle {
   font-size: 15px;
@@ -32,38 +33,52 @@ img {
 .subtitle br {
   line-height: 25px;
 }
-.nav img {
-  height: 10px;
-  width: 15px;
+.nav {
+	margin-top: 180px;
+}
+.nav .fa {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 1.28571429em;
+  line-height: 1.28571429em;
+  padding: 15px;
 }
 
 /* Second section */
 .info {
-	height: 1040px;
-	background-color: white;
 	text-align: center;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding: 120px 0;
+	font-size: 30px;
+	line-height: 1.4;
+	max-width: 600px;
+	margin: auto;
 }
 .info br {
 	line-height: 50px;
 }
-p {
+.info p {
 	color: rgb(35,35,46);
-	min-width: 600px;
-	max-width: 600px;
-	margin: auto;
+	margin: 0;
 	font-size: 20px;
 }
-h1 {
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 60px;
-	color: rgb(35,35,46);
-	padding-top: 90px;
+.info p + p {
+	margin-top: 1em;
 }
 .wrapper {
 	margin: auto;
+}
+.do {
+	display: flex;
+	margin: 0 -10px;
+	padding: 0;
+	text-align: left;
+}
+.do > li {
+	box-sizing: border-box;
+	width: 33.33%;
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
 }
 /*h2 {
 	text-align: center;
@@ -88,7 +103,7 @@ ul {
 	margin: auto;
 	padding-top: 80px;
 }
-.do .caption > li {
+/*.do .caption > li {
 	width: 33.3333333%;
     float: left;
     text-align: center;
@@ -108,4 +123,4 @@ li {
 	display: list-item;
 	text-align: center; 
 	float: left;
-}
+}*/
