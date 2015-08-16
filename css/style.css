@@ -103,21 +103,44 @@ ul {
 	margin: auto;
 	padding-top: 80px;
 }
-ul.menu {
-	text-decoration: none;
-	list-style-type: none;
-	display: inline-block;
-	text-align: center; 
-}
-/*.menu li {
-	list-style-type: none; 
-	float: left; 
-	margin: 0 auto; 
-	max-width: 600px;
-	text-align: center; 
-
+.do-wrapper {
+	padding: 120px 20px;
 }
 .work {
+	text-align: center;
+	background: #23232e;
+	color: white;
+	padding: 200px 20px 85px;
+}
+.work h2 {
+	margin-top: 0;
+}
+.menu {
+	list-style: none;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+}
+.menu li {
+	float: left; 
+	margin: 0; 
+	padding: 0;
+}
+.menu li + li {
+	margin-left: 50px;
+}
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	max-width: 940px;
+}
+.projects > li {
+	width: 33.33%;
+}
+/*.work {
 	height: 1350px; 
 	background-color: rgb(35,35,46);
 }
